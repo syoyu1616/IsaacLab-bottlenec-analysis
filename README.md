@@ -1,0 +1,2 @@
+# IsaacLab-bottlenec-analysis
+Isaac Labを用いた強化学習の性能ボトルネック解析ボトルネック解析用スクリプトと設定
