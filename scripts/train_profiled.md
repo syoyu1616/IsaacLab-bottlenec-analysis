@@ -57,3 +57,10 @@ Nsight Systemsを用いて、Isaac Labにおける「物理シミュレーショ
     # close the simulator
     env.close()
 ```
+
+## プロファイリングの確認方法
+
+上記の変更を加えて Nsight Systems でプロファイリングを実行すると、NVTX行に指定したマーカーが表示されます。
+
+
+上図のように、Physics Simulation と Policy Update のブロックが明確に分かれて表示され、データ生成と学習の実行時間の比率を一目で確認できるようになります。
